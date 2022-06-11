@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+h1{
+    text-transform: uppercase;
+    color: #FF5F00;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+    display: flex;
+    justify-content: center;
+    color: #FF5F00;
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body{
+    background-image: url(https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-.App-link {
-  color: #61dafb;
+.link{
+    color: aliceblue;
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    
+    
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn{
+    border-radius: 100px;
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 21px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.btnshow{
+    background-color: rgba(154, 144, 89, 0.392);
+    border: none;
+    border-radius: 20%;
+    font-size: 12px;
+}
+
+.btnremove{
+    background-color: black;
+    border-radius: 100px;
+    padding: 8px;
+    font-size: 15px;
+    color: aliceblue;
 }
